@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:color="@color/colorAccent"
+    >
+    <item android:id="@android:id/mask">
+
+        <shape android:shape="oval">
+            <solid android:color="@color/white"/>
+
+        </shape>
+
+    </item>
+
+    <item android:drawable="@drawable/item_circular_color_accent_border"/>
+
+</ripple>
+
+<!--
+<ripple>:
+Defines the ripple effect, which is the touch feedback animation.
+
+android:color="@color/lightGrey":
+Sets the color of the ripple effect to light grey.
+
+<item android:id="@android:id/mask">:
+Specifies a mask for the ripple effect. This mask determines the shape and area where the ripple will be visible.
+
+<shape android:shape="oval">:
+Defines the shape of the mask as an oval.
+
+<solid android:color="@color/white"/>:
+Fills the oval shape with a solid white color.
+
+<item android:drawable="@drawable/item_circular_color_accent_border"/>:
+Adds an overlay drawable (image or shape) on top of the ripple effect. This can be used to draw additional graphics, like a border or another shape, over the ripple-->
